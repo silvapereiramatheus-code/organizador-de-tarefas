@@ -1,25 +1,54 @@
+
 .tarefas { 
-   background-color: #29548F;
+    background-color: #bdc7d6;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;}
 .index { 
-   background-color: #29548F;
+   background-color: #bdc7d6;
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;}
+    margin-top: 20px;
+}
+.index h1 {
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #3675D5
+}
+.index p {
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    color: #151e29;
+  
+}
+.index .vida {
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.index button {
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    color: #FFFFFF;
+    border: 1px solid #4a518b;
+    border-radius: 5px;
+    background-color: #3675D5;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .diario { 
-   background-color: #29548F;
+   background-color: #bdc7d6;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;}
 .Mensal { 
-   background-color: #29548F;
+   background-color: #bdc7d6;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;}
 .anual { 
-   background-color: #29548F;
+   background-color: #bdc7d6;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;}
@@ -28,4 +57,4 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}https:
+}
