@@ -4,16 +4,28 @@
     font-size: 30px;
     text-align: center;
     margin-top: 20px;}
-.index { 
-   background-color: #bdc7d6;
+.index {
+    background-image: url("imagens/ondas.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #bdc7d6;
+
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .index h1 {
     font-size: 60px;
     font-family: 'Inter', sans-serif;
-    color: #3675D5
+    color: #3675D5;
+    
+  
 }
 .index p {
     font-size: 15px;
@@ -31,12 +43,58 @@
     font-family: 'Noto Serif', serif;
     color: #FFFFFF;
     border: 1px solid #4a518b;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3675D5;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 20px;
+    
+
 }
+.botao-principal {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.index main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.index header{
+    text-align: center;
+}
+.index .calendario {
+    position: fixed;
+    width: 240px;
+    height: 240px;
+    top: -10px;
+    transform: rotate(-8deg);
+   
+    right: 50px;
+   
+    object-fit: contain;
+  
+    
+}
+   
+    
+
+.index .agenda {
+    position: fixed;
+    width: 240px;
+    height: 240px;
+    top: -50px;
+    transform: rotate(8deg);
+  
+    left: 5px;  
+   
+    object-fit: contain;
+}   
+
 .diario { 
    background-color: #bdc7d6;
     font-size: 30px;
