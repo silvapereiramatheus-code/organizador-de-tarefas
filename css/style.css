@@ -1,6 +1,6 @@
 @keyframes tremer {
     0%, 100% {
-        transform: translateX(0px); rotate(0deg);
+        transform: translateX(0px) rotate(0deg);
         
     }
     25% {
