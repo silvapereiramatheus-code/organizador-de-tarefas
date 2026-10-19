@@ -179,6 +179,8 @@
     padding: 10px 20px;
     background-color: #3675D5;
     color: #FFFFFF;
+    
+    
 
 }
 .nav-mensal:hover {
@@ -240,40 +242,169 @@
 }
 .diario .diario-p{
     font-size: 20px;
-   
-    margin-left: 200px;
     border: 1px solid #3675D5;
     border-radius: 10px;
     margin-right: 10px;
-    height: 462px;
+    height: 500px;
+    width: 1000px;
     padding: 5px 5px;
     background-color: #FFFFFF;
+    margin-top: 10px;
 
     
 }
 .diario .border{
      border: 1px solid #3675D5;
-    width: fit-content;
+    width: 150px;
     height: 500px;
     padding: 5px 5px;
-   
     background-color: #FFFFFF;
     border-radius: 10px;
     color: #3675D5;
-    display: block;;
-    
+    margin-top: 10px;
+    margin-left: 15px;
     
 }
-.Mensal { 
+.layout-diario {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.mensal { 
+      background-image: url("imagens/ondas.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
    background-color: #bdc7d6;
     font-size: 30px;
-    text-align: center;
-    margin-top: 20px;}
+  
+}
+.h1-mensal{
+     margin-left: 5px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: #3675D5;
+    margin-top: 20px;
+
+}
+
+
+.p-mensal{
+     font-size: 20px;
+    border: 1px solid #3675D5;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 500px;
+    width: 1000px;
+    padding: 5px 5px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.borda-mensal{
+      border: 1px solid #3675D5;
+    width: 150px;
+    height: 500px;
+    padding: 5px 5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #3675D5;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.layout-mensal{
+      display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+.nav-da{
+     display: inline-block;
+    transition: 0.3s ease;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 15px;
+    border: 1px solid #4a518b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3675D5;
+    color: #FFFFFF;
+    font-size: 25px; 
+}
+.nav-da:hover{
+   transform: scale(1.08);
+}
+
 .anual { 
+      background-image: url("imagens/ondas.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
    background-color: #bdc7d6;
     font-size: 30px;
-    text-align: center;
-    margin-top: 20px;}
+  
+}
+.h1-anual{
+     margin-left: 5px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: #3675D5;
+    margin-top: 20px;
+
+}
+
+
+.p-anual{
+     font-size: 20px;
+    border: 1px solid #3675D5;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 500px;
+    width: 1000px;
+    padding: 5px 5px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.borda-anual{
+      border: 1px solid #3675D5;
+    width: 150px;
+    height: 500px;
+    padding: 5px 5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #3675D5;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.layout-an{
+      display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+.nav-an{
+     display: inline-block;
+    transition: 0.3s ease;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 15px;
+    border: 1px solid #4a518b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3675D5;
+    color: #FFFFFF;
+    font-size: 25px; 
+}
+.nav-an:hover{
+   transform: scale(1.08);
+}
 .pai {
     display: flex;
     flex-direction: column;
