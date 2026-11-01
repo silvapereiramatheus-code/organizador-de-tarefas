@@ -420,13 +420,42 @@ body.anual {
     transform: translateX(0);
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
-
-.border-anual.fechado header h1,
-.border-anual.fechado nav {
+.anual .border-anual.fechado header h1,
+.anual .border-anual.fechado nav {
     opacity: 0;
     transform: translateX(-16px);
     pointer-events: none;
 }
+
+.border {
+    overflow: hidden;
+    transition: flex-basis 0.3s ease, width 0.3s ease, padding 0.3s ease;
+}
+
+.border.fechado {
+    flex-basis: 68px;
+    width: 68px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.border header h1,
+.border nav {
+    overflow: hidden;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Quando o painel estiver fechado */
+.diario .border.fechado header h1,
+.diario .border.fechado nav {
+    opacity: 0;
+    transform: translateX(-16px);
+    pointer-events: none;
+}
+
+
 
 .botao-painel {
     margin: 4px;
